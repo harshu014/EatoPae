@@ -1,0 +1,127 @@
+body{
+    width: 99%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    
+}
+.container-flex{
+    width: 50%;
+}
+#rafiki-box{
+    color:  rgba(100, 100, 100, 1);
+    width: 450px;
+   
+    border-radius: 15px;
+    height: 60px;
+    background-color: rgba(40, 38, 38, 1);
+    text-align: center;
+    margin-left: 90px;
+    font-family: cursive;
+    
+   
+}
+h5{
+    font-size: 25px;
+    padding: 10px;
+}
+.Headng{
+    font-size: 30px;
+    color: rgba(255, 244, 184, 1) ;
+    text-align: center;
+    padding-top: 50px;
+}
+#rafiki-img{
+    height: 562px;
+    width: 719px;
+}
+form{
+    height: 640px;
+    width: 500px;
+    background-color: rgba(47, 47, 47, 1);
+    border-radius: 18px;
+}
+input{
+    height: 45px;
+    width: 460px ;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 20px;
+}
+textarea{
+   
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+:placeholder-shown{
+    font-size: 18px;
+    font-weight: 600;
+}
+label{
+    font-size: 20px;
+    color: rgba(255, 236, 132, 1);
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 350px;
+    
+}
+.lab{
+    font-size: 20px;
+    color: rgba(255, 236, 132, 1);
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 395px;
+    
+}
+.sub{
+    height: 42px;
+    width: 117px;
+    border-radius: 26px;
+    background-color: rgba(255, 221, 26, 1);
+    color: black;
+    ;
+    margin-left: 350px;
+    
+}
+#Submt{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 7px;
+}
+#panel1-header{
+    width: 500px;
+   
+}
+.Typography{
+    width: 500px;
+
+}
+
+
+@media screen and (max-width:780px) {
+    .container{
+        flex-direction: column;
+
+    }
+    #rafiki-img{
+        height: 362px;
+        width: 519px;
+    }
+    #rafiki-box{
+        color:  rgba(100, 100, 100, 1);
+        width: 450px;
+       
+        border-radius: 15px;
+        height: 60px;
+        background-color: rgba(40, 38, 38, 1);
+        text-align: center;
+        margin-left: 20px;
+        font-family: cursive;
+        
+       
+    }
+}
