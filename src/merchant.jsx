@@ -99,4 +99,4 @@ function Merchant(){
         </>
     )
 }
-export default Merchant
+export default Merchant;
