@@ -4,6 +4,22 @@ body{
   width: 100%;
 }
 
+.Exp-button{
+  background-color: #595959;
+  border: none;
+  color: #F2F2F2;
+  padding: 15px 32px;
+  background-color: rgba(255, 233, 109, 0.26);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 30px;
+  width: 276px;
+  height: 60px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 20px;
+}
 .FA{
   background-image: url('/Fam.png');
   height: 1024px;
@@ -30,7 +46,8 @@ h4{
   padding: 25px;
 }
 #Ar{
-  padding: 24px;
+ margin-top: 24px;
+ height: 20px;
   
 }
 #H{
@@ -46,6 +63,7 @@ h2{
   font-size: 70px;
   color: #FFF4B8;;
 }
+
 button{
   background-color: #DFCB4A;
   color: black;
@@ -112,7 +130,7 @@ h3{
   border-style: solid;
   border-color:grey;
   border-width: 1px;
-  height: 24px;
+  height: 64px;
   background-color:#1C1C1C;
   color: grey;
   margin-left: 416px;
@@ -163,36 +181,6 @@ h3{
 .box{
   height: 130px;
 }
-.flex-box{
-  display: flex;
-
-  width: 100%;
-  padding-top: 50px;
-  
-}
-.flex-1{
-  width: 50%;
-  padding-left: 200px;
-  
- 
-}
-.back-frame{
-  height: 400px;
- 
-  width: 1319px;
-  position: relative;
- 
-  left: 69px;
-  border-radius: 50px;
-  border-width: 3px;
-  border-style: solid;
-  border-color:#c5ac0f;
-  position: relative;
-  overflow: hidden;
-  padding: 40px;
-  margin-top: 50px;  
-}
-
 #Int {
   font-size: 40px;
   color: rgba(238, 219, 107, 1);
@@ -239,32 +227,6 @@ span{
   color: #FFE23C;
 }
 
-.explore{
-  color: #FFF4B8;
-  background-color: rgba(255, 233, 109, 0.26);
-  display: flex;
-  border-radius: 66px;
-  width: 276px;
-  height: 80px;
-  left: 123px;
-  margin: 70px;
-}
-.explore:hover{
-  color: #FFF4B8;
-  background-color: rgba(92, 80, 12, 0.26);
-  display: flex;
-  border-radius: 66px;
-  width: 296px;
-  height: 85px;
-  left: 123px;
-  margin-left: 70px;
-  box-shadow: 1px 1px 1px 1px #FFF4B8 ;
-}
-.Arrow{
-  height: 36px;
-  width: 218px;
-  padding: 20px;
-}
 #testimonials{
   font-size: 60px;
   color: rgb(140, 134, 134);
@@ -276,25 +238,70 @@ span{
   font-size: 40px;
   text-align: center;
 }
-.rev-img{
-  height: 300px;
-  width: 700px;
-  margin-inline: 50px;
-  
-}
+
 #test{
   width: 233px;
-  height: 24px;
+  height: 50px;
   border-radius: 40px;
   text-align: center;
   border-style: solid;
   border-color: grey;
   border-width: 1px;
   margin-left: 630px;
-  padding: 20px;
+  padding: 10px;
   color: grey;
 
 }
+
+.foodsites{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.foodsites .pattern-img{
+  border-radius: 50px;
+  height: 400px;
+  width: 100%;
+  background-color: #2A2A2A;
+  opacity: 0.1;
+  border: 3px solid #e2c105;
+  object-fit: cover;
+}
+.foodsites .foodsite-info{
+  position: absolute;
+  top: 10%;
+}
+.foodsite-info p{
+  color: #EEDB6B;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.2px; /* 138% */
+  letter-spacing: -0.879px; 
+  text-align: center;
+}
+.foodsite-info span{
+  color: #8F8F8F;
+   text-align: center;
+   font-family: Afacad;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 45.5px; /* 126.389% */
+   letter-spacing: -0.554px;
+}
+.foodsite-info .site-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.site-icons img{
+  width: 177.607px;
+  height: 177.607px;
+}
+
 
 
 
@@ -307,6 +314,22 @@ span{
    body{
     width: 50%;
    }
+   
+
+
+   .foodsite-info p{
+    font-size: 27px;
+    }
+    .foodsite-info span{
+         font-size: 22px;
+    }
+    .site-icons img{
+        width: 80px;
+       height: 80px;
+
+    }
+
+   
   .flex-box{
     flex-direction: column;
   }
@@ -354,13 +377,15 @@ span{
       color: grey;
       margin-left: 66px;
       text-align: center;
-      
+      padding: 15px;
+
     }
     #BD{
       font-size: 15px;
       color: rgba(159, 159, 159, 1);
+      text-align: center;
    }
-   .testt{
+   #test{
     width: 203px;
     height: 50px;
     border-radius: 40px;
@@ -368,29 +393,17 @@ span{
     border-style: solid;
     border-color: grey;
     border-width: 1px;
-    margin-left: 150px;
+    margin-left: 120px;
     align-items: center;
-    position: relative;
-  
-  }
+    
+   }
   .rev-img{
-    height: 150px;
-    width: 350px;
+    height: 200px;
+    width: 370px;
     margin-inline: 50px;
     
   }
-  .back-frame{
-    height: 270px;
-    width: 519px;
-    position: relative;
-    left: 9px;
-    border-radius: 50px;
-    border-width: 3px;
-    border-style: solid;
-    border-color:#c5ac0f;
-    flex-direction: row;
-    margin-top: 50px;  
-  }
+  
   #Int{
     font-size: 20px;
     color: rgba(238, 219, 107, 1);
@@ -404,16 +417,7 @@ span{
     text-align: center;
     
   }
-  .delivery-icons{
-    
-    
-   margin-left: 10px;
-    align-items: center;
-    height: 77px;
-    width: 77px;
-    flex-direction: row-reverse;
-    
-  }
+  
   h2{
     font-size: 10vw;
     color: #FFF4B8;
@@ -443,7 +447,13 @@ span{
   height: 64px;
   left: 123px;
 }
- 
+.Arrow{
+  border-radius: 66px;
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  background-color: rgba(255, 233, 109, 0.26);
+}
   
  
 }
