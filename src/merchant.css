@@ -11,7 +11,7 @@ body{
     scroll-behavior: smooth;
 }
 .merchant-hero{
-   background: url('./merchant_assests/mer_hero.png');
+   background: url('./assets/mer_hero.png');
    width: 100%;
    height: 850px;
    background-position: center;
