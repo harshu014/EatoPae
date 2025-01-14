@@ -89,7 +89,7 @@ const App = () => {
             <p id='p2'>A sleek, user-friendly device placed at every <br /> table, designed to enhance the dining <br /> experience. Diners can browse menus, <br /> customize orders, and place them directly <br /> without waiting for staff.</p>
             
               <center>
-              <a className='Exp-button'>  Explore More -&gt; </a>
+              <a className='Exp-button'>  Explore More &rarr; </a>
             </center>
           </div>
           <div className="content-img">
@@ -112,7 +112,7 @@ const App = () => {
            
               <center>
                 
-                <a className='Exp-button'> -&gt; Explore More </a>
+                <a className='Exp-button'> &larr; Explore More </a>
                 </center></div>
           
         </div>
