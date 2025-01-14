@@ -9,9 +9,11 @@ const Footer = () => {
   return (
     <footer>
         <div className='container'>
+          
             <div id='flex-30'>
+            <center>
               <img src='logo-footer.png' id='footer-logo'/>  
-              <p>Order Easy, Eat Happy</p>
+              <p style={{textAlign:"center"}}>Order Easy, Eat Happy</p>
               <div className='container12'>
                 <div className='back'>
               <FaInstagram  className='fa'/>
@@ -19,31 +21,32 @@ const Footer = () => {
               <div className='back'>
               <FaLinkedinIn className='fa'/>
               </div>
-
+              
               </div>
+              </center> 
             </div>
             <div className='container-flex'><p className='headnng'>CONTACT</p>
             {/* <div className='container-s'><IoMdCall className='ico'/> <h4 className='bod'>+91 9555855303 <br/> +91 6393887230</h4> </div>
             <div className='container-s'><IoMdMail className='ico'/> <h4 className='bod'>fluxvisiodynamics@gmail.com</h4> </div>
             <div className='container-s'><MdLocationPin className='ico'/> <h4 id='addres'>82/22, Gandhi Gram, Ramadevi,<br/> Kanpur, Uttar Pradesh</h4>  </div> */}
              <ul>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
+              <li>9555855303,6393887230</li>
+              <li>fluxvisiodynamics@gmail.com</li>
+              <li>82/22, Gandhi Gram, Ramadevi, Kanpur, Uttar Pradesh</li>
             </ul>
             </div>
             <div className='container-flex'><p className='headnng'>PRODUCTS</p>
             <ul>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
+              <li>Homepage</li>
+              <li>For Customers</li>
+              <li>For Merchants</li>
             </ul>
             </div>
             <div className='container-flex'><p className='headnng'>COMPANY</p>
             <ul>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
-              <li>HIIIIIII</li>
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Terms & Conditions</li>
             </ul></div>
         </div>
     </footer>
@@ -51,3 +54,4 @@ const Footer = () => {
 }
 
 export default Footer;
+
