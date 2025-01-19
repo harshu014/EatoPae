@@ -1,7 +1,54 @@
-body{
-  background-color: #1C1C1C;
-  
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  overflow-x: hidden;
+    scroll-behavior: smooth;
+
+   
+}
+
+
+div .F1 img{
+  height: 323px;
   width: 100%;
+  top: 781px;
+  position: absolute;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.item img {
+  width: 50px;
+  height: 50px;
+  margin-inline: 100px;
+}
+
+.item p {
+  font-family: sans-serif;
+  color: rgba(238, 219, 107, 1);
+  font-size: 24px;
+}
+
+
+.container-ico {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 5%;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 10px;
+  width: 90%;
+
 }
 
 .Exp-button{
@@ -19,16 +66,21 @@ body{
   height: 60px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    margin: 20px;
+   
 }
 .FA{
-  background-image: url('/Fam.png');
+  background: url('/Fam.png');
   height: 1024px;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  
 }
+  
+
 .container{
   display: flex;
+ 
  
   
 }
@@ -41,15 +93,19 @@ h1{
   left: 674px;
 }
 h4{
-  font-size: 19px;
+  font-size: 22px;
   text-align: center;
-  padding: 25px;
+  padding-top:22px;
+  padding-left: 20px; 
+  /* background: rgba(255, 233, 109, 0.26); */
+
 }
 #Ar{
  margin-top: 24px;
  height: 20px;
-  
-}
+ font-size: 20px;
+
+ }
 #H{
   color: #DFCB4A;
   position: absolute;
@@ -116,7 +172,9 @@ h3{
   position: absolute;
   top:674px;
   color: #FFF4B8;
-  background-color: #FFE96D42;
+  /* background-color: #FFE96D42; */
+  background: rgba(225, 197, 39, 0.76);
+ 
   display: flex;
   border-radius: 13px;
   width: 319px;
@@ -131,9 +189,9 @@ h3{
   border-color:grey;
   border-width: 1px;
   height: 64px;
-  background-color:#1C1C1C;
+ 
   color: grey;
-  margin-left: 416px;
+  /* margin-left: 416px; */
   text-align: center;
   padding: 20px;
 }
@@ -214,8 +272,17 @@ h3{
 #p2{
   font-size: 25px;
   color: rgba(202, 195, 156, 1);
-  padding-left: 75px;
+  padding-left: 145px;
   bottom: 50px;
+  text-align: left;
+  
+}
+#p3{
+  font-size: 25px;
+  color: rgba(202, 195, 156, 1);
+  padding-right: 100px;
+  bottom: 50px;
+  text-align: right;
   
 }
 #G2{
@@ -343,6 +410,10 @@ span{
    body{
     width: 50%;
    }
+   .container-ico {
+    flex-direction: column;
+    gap: 10px;
+  }
    
 
 
